@@ -45,31 +45,31 @@ import IndividualItem from "./IndividualItem";
 const data: Payment[] = [
   {
     id: "m5gr84i9",
-    date: new Date("April 16, 2024"),
+    date: new Date("April 27, 2024"),
     uuid: "e219e1d72955409a3da95e24",
     status: "success",
   },
   {
     id: "3u1reuv4",
-    date: new Date("April 18, 2024"),
+    date: new Date("April 27, 2024"),
     uuid: "f7e7439cab03f561476b724f",
     status: "success",
   },
   {
     id: "derv1ws0",
-    date: new Date("April 20, 2024"),
+    date: new Date("April 27, 2024"),
     uuid: "1377d60a24792c02e7cb4e1b",
     status: "failed",
   },
   {
     id: "5kma53ae",
-    date: new Date("April 20, 2024"),
+    date: new Date("April 27, 2024"),
     uuid: "34a81ba8e525e3674c3e0266",
     status: "success",
   },
   {
     id: "bhqecj4p",
-    date: new Date("April 24, 2024"),
+    date: new Date("April 28, 2024"),
     uuid: "e0114e38991c5d3822ee868e",
     status: "processing",
   },
