@@ -11,8 +11,8 @@ export async function GET(request: NextRequest){
     const collection = db.collection('python');
 
     const document = await collection.findOneAndUpdate(
-        { used: false }, // filter to find unused document
-        { $set: { used: true } }, // update the "used" field to true
+        { used: true }, // filter to find unused document
+        { $set: { used: false } }, // update the "used" field to true
         { sort: { _id: -1 }, returnDocument: 'after' } // return the updated document
     );
 
