@@ -1,11 +1,11 @@
 import Link from "next/link";
 import {
-  Logo,
   SettingsIcon,
   UsersIcon,
   VercelLogo,
 } from "@/components/dashboard/icons";
 import { NavItem } from "@/components/dashboard/nav-item";
+import Logo from "@/components/Logo";
 
 export const metadata = {
   title: "Next.js App Router + NextAuth + Tailwind CSS",
@@ -30,7 +30,6 @@ export default function RootLayout({
                   href="/"
                 >
                   <Logo />
-                  <span className="">ACME</span>
                 </Link>
               </div>
               <div className="flex-1 overflow-auto py-2">

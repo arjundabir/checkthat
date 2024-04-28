@@ -9,8 +9,8 @@ export default function Home() {
   return (
     <main className="w-screen h-screen p-20">
       <div className="flex items-center space-x-2 text-2xl font-bold">
-        <div className="p-1 bg-black aspect-square w-fit rounded-lg">
-          <CheckIcon className="w-8 h-8 text-white stroke-white stroke-[.5]" />
+        <div className="p-0.5 bg-black aspect-square w-fit rounded-lg">
+          <CheckIcon className="w-7 h-7 text-white stroke-white stroke-[.5]" />
         </div>
         <span>CheckThat.</span>
       </div>
@@ -47,8 +47,8 @@ export default function Home() {
 }
 
 const bulletPoints = [
-  "AI-Driven Item Validation",
+  "AI-Driven Item Validation & Fraud Detection",
+  "Easy to Use Dashboard for Businesses",
   "Real-Time Chatbot Assistance",
-  "Automated Fraud Detection",
-  "Self-Training Computer Vision",
+  "Self-Training Computer Vision Algorithm",
 ];
